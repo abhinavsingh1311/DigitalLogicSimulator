@@ -1,9 +1,6 @@
 #pragma once
 #include <vector>
 #include <string>
-#include <iostream>
-#include <stdexcept>
-using namespace std;
 // gatetype enum
 enum class GateType
 {
@@ -23,11 +20,10 @@ class Gate
 {
     // define protected members
 protected:
-    bool output;
     // input signals
     std::vector<bool> inputSignals;
     // output signal
-    bool outputSignals;
+    bool outputSignal;
     // add label and id management
     static int nextId;
     std::string label;
@@ -43,14 +39,13 @@ public:
     virtual void evaluate() = 0;
     // input access maanagement methods
     // setinput
-    void setOutput(int index, bool value);
+    void setInput(int index, bool value);
+    bool getInput(int index) const;
     // output access methods
     // getoutput
     bool getOutput() const;
     // addinput
     void addInput(bool value);
-    // output access methods (const correctness)
-
     // getter methods for id,label,type
     int getId() const;
     std::string getLabel() const;
