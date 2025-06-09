@@ -1,3 +1,4 @@
+#pragma once
 #include <memory>
 #include "Gate.h"
 #include "BasicGates.h"
