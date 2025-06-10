@@ -55,4 +55,8 @@ private:
     void handleTest(const std::vector<std::string> &tokens);
     void handleDelete(const std::vector<std::string> &tokens);
     std::string getGateTypeName(GateType type);
+    std::vector<bool> generateExpectedResults(GateType type, int numInputs);
+    bool calculateExpectedOutput(GateType type, const std::vector<bool>& inputs);
+    // Helper methods
+    void showAvailableGates();
 };

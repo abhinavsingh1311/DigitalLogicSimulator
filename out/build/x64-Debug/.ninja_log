@@ -1,0 +1,18 @@
+# ninja log v6
+33	192	7712471621168136	CMakeFiles/simulator.dir/src/core/K-Map.cpp.obj	7b0987e499edf8bd
+21	697	7712471621039669	CMakeFiles/simulator.dir/src/core/Gate.cpp.obj	788e57af82a71d8c
+8	767	7712471620824804	CMakeFiles/simulator.dir/src/core/BasicGates.cpp.obj	906105413c456a52
+39	200	7712471621232831	CMakeFiles/simulator.dir/src/gui/EventHandler.cpp.obj	b62f5accaaaf564e
+53	216	7712471621368856	CMakeFiles/simulator.dir/src/gui/Render.cpp.obj	216afa10884a03d1
+14	199	7712471620984927	CMakeFiles/simulator.dir/src/core/Circuit.cpp.obj	baa8466af866cc68
+27	778	7712471621080564	CMakeFiles/simulator.dir/src/core/GateFactory.cpp.obj	61d5081bfeb51e40
+75	241	7712471621588388	CMakeFiles/simulator.dir/src/utils/parser.cpp.obj	9342c610b16f4ba7
+60	1012	7712471621441072	CMakeFiles/simulator.dir/src/main.cpp.obj	db720ff2f6fe5f79
+68	1017	7712471621516608	CMakeFiles/simulator.dir/src/utils/TruthTable.cpp.obj	52e0a90e4a441a8a
+46	1134	7712471621299508	CMakeFiles/simulator.dir/src/gui/InteractiveSimulator.cpp.obj	d5aff2a3214ace6a
+1171	1551	7712456413295216	simulator.exe	a8222117779e94e2
+8	29	7712471411624091	clean	21a4d0550fd2b6b1
+20	1138	7712479356664752	CMakeFiles/simulator.dir/src/main.cpp.obj	db720ff2f6fe5f79
+31	1157	7712479356889349	CMakeFiles/simulator.dir/src/utils/TruthTable.cpp.obj	52e0a90e4a441a8a
+13	1332	7712479356664752	CMakeFiles/simulator.dir/src/gui/InteractiveSimulator.cpp.obj	d5aff2a3214ace6a
+1332	1599	7712479369872000	simulator.exe	a8222117779e94e2

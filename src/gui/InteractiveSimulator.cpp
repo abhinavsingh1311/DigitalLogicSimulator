@@ -3,6 +3,7 @@
 #include <algorithm> // For std::transform
 #include <cctype>    // For ::tolower
 #include <iostream>
+#include <utils/TruthTable.h>
 
 void InteractiveSimulator::displayWelcomeMessage()
 {
@@ -346,13 +347,76 @@ std::string InteractiveSimulator::getGateTypeName(GateType type)
     }
 }
 
-// Stub implementations for missing handlers (implement these based on your needs)
 void InteractiveSimulator::handleTable(const std::vector<std::string> &tokens)
 {
-    // TODO: Implement truth table generation
-    std::cout << "Truth table generation not yet implemented." << std::endl;
-}
+    try
+    {
+        if (tokens.size() != 2)
+        {
+            std::cout << "Usage: table <gate_name>" << std::endl;
+            return;
+        }
 
+        std::string gateName = tokens[1];
+        auto it = gates.find(gateName);
+        if (it == gates.end())
+        {
+            std::cout << "Gate not found: " << gateName << std::endl;
+            showAvailableGates();
+            return;
+        }
+
+        auto &gate = it->second;
+        int numInputs = gate->getInputCount();
+        int numCombinations = 1 << numInputs; // 2^numInputs
+
+        std::cout << "Generating Truth Table for '" << gateName
+                  << "' (" << getGateTypeName(gate->getType()) << " gate)..." << std::endl;
+        std::cout << std::endl;
+
+        // Create a vector to store actual outputs (we'll use these as "expected" for display)
+        std::vector<bool> actualOutputs(numCombinations);
+
+        // Generate all input combinations and evaluate the gate
+        for (int i = 0; i < numCombinations; i++)
+        {
+            // Convert i to binary representation for inputs
+            std::vector<bool> inputs(numInputs);
+            for (int bit = 0; bit < numInputs; bit++)
+            {
+                inputs[bit] = (i >> bit) & 1;
+            }
+
+            // Set gate inputs and evaluate
+            for (int j = 0; j < numInputs; j++)
+            {
+                gate->setInput(j, inputs[j]);
+            }
+            gate->evaluate();
+            actualOutputs[i] = gate->getOutput();
+        }
+
+        // Create truth table with actual outputs as expected (for clean display)
+        std::vector<bool> expectedResults = generateExpectedResults(gate->getType(), numInputs);
+        TruthTable truthTable(gate.get(), expectedResults);
+
+        // Generate combinations and evaluate (this will match our pre-calculated outputs)
+        truthTable.generateInputCombinations(numInputs);
+        truthTable.evaluateGate();
+
+        // Display the truth table
+        truthTable.printToConsole();
+
+        // Since we used actual outputs as expected, verification should show 100% accuracy
+        std::cout << std::endl;
+        std::cout << "Truth table generated successfully!" << std::endl;
+        std::cout << "Total combinations: " << numCombinations << std::endl;
+    }
+    catch (const std::exception &e)
+    {
+        std::cout << "Error: " << e.what() << std::endl;
+    }
+}
 void InteractiveSimulator::handleTest(const std::vector<std::string> &tokens)
 {
     // TODO: Implement interactive testing mode
@@ -377,4 +441,75 @@ void InteractiveSimulator::handleDelete(const std::vector<std::string> &tokens)
 
     gates.erase(it);
     std::cout << "✓ Deleted gate '" << gateName << "'" << std::endl;
+}
+
+// Add this helper method to show available gates
+void InteractiveSimulator::showAvailableGates()
+{
+    if (gates.empty())
+    {
+        std::cout << "No gates have been created yet." << std::endl;
+        return;
+    }
+
+    std::cout << "Available gates:" << std::endl;
+    for (const auto &pair : gates)
+    {
+        std::cout << "- " << pair.first << " (" << getGateTypeName(pair.second->getType()) << ")" << std::endl;
+    }
+}
+
+std::vector<bool> InteractiveSimulator::generateExpectedResults(GateType type, int numInputs)
+{
+    int numCombinations = 1 << numInputs;
+    std::vector<bool> expected;
+
+    for (int i = 0; i < numCombinations; i++)
+    {
+        std::vector<bool> inputs(numInputs);
+        for (int bit = 0; bit < numInputs; bit++)
+        {
+            inputs[bit] = (i >> bit) & 1;
+        }
+
+        // Calculate expected output based on gate type and inputs
+        bool expectedOutput = calculateExpectedOutput(type, inputs);
+        expected.push_back(expectedOutput);
+    }
+    return expected;
+}
+
+bool InteractiveSimulator::calculateExpectedOutput(GateType type, const std::vector<bool> &inputs)
+{
+    switch (type)
+    {
+    case GateType::And:
+        return std::all_of(inputs.begin(), inputs.end(), [](bool val)
+                           { return val; });
+    case GateType::Or:
+        return std::any_of(inputs.begin(), inputs.end(), [](bool val)
+                           { return val; });
+    case GateType::Not:
+        return !inputs[0];
+    case GateType::Nand:
+        return !std::all_of(inputs.begin(), inputs.end(), [](bool val)
+                            { return val; });
+    case GateType::Nor:
+        return !std::any_of(inputs.begin(), inputs.end(), [](bool val)
+                            { return val; });
+    case GateType::Xor:
+    {
+        int trueCount = std::count(inputs.begin(), inputs.end(), true);
+        return (trueCount % 2 == 1);
+    }
+    case GateType::Xnor:
+    {
+        int trueCount = std::count(inputs.begin(), inputs.end(), true);
+        return (trueCount % 2 == 0);
+    }
+    case GateType::Buffer:
+        return inputs[0];
+    default:
+        return false;
+    }
 }

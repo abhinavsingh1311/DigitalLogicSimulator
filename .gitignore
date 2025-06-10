@@ -28,7 +28,11 @@
 
 # Executables
 *.exe
+*.dll
+*.so
+*.dylib
 *.out
 *.app
 *.build
+*.vs
 

@@ -7,11 +7,12 @@
   },
   "ExpandedNodes": [
     "",
+    "\\build",
     "\\src",
     "\\src\\core",
     "\\src\\gui",
     "\\src\\utils"
   ],
-  "SelectedNode": "\\src\\core\\BasicGates.cpp",
+  "SelectedNode": "\\out",
   "PreviewInSolutionExplorer": false
 }

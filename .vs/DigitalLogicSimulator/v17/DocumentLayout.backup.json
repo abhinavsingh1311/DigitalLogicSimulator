@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\InteractiveSimulator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\gui\\InteractiveSimulator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\InteractiveSimulator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\gui\\InteractiveSimulator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\TruthTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\TruthTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\BasicGates.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\core\\BasicGates.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\InteractiveSimulator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\gui\\InteractiveSimulator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\TruthTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\TruthTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,33 +114,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "TruthTable.h",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.h",
               "RelativeDocumentMoniker": "src\\utils\\TruthTable.h",
               "ToolTip": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.h",
               "RelativeToolTip": "src\\utils\\TruthTable.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-10T04:58:30.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TruthTable.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.cpp",
               "RelativeDocumentMoniker": "src\\utils\\TruthTable.cpp",
               "ToolTip": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\TruthTable.cpp",
               "RelativeToolTip": "src\\utils\\TruthTable.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-10T04:57:46.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "parser.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\utils\\parser.cpp",
               "RelativeDocumentMoniker": "src\\utils\\parser.cpp",
@@ -144,12 +148,11 @@
               "RelativeToolTip": "src\\utils\\parser.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:57:45.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:57:45.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Render.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\Render.cpp",
               "RelativeDocumentMoniker": "src\\gui\\Render.cpp",
@@ -157,25 +160,24 @@
               "RelativeToolTip": "src\\gui\\Render.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:57:42.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:57:42.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "InteractiveSimulator.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\InteractiveSimulator.cpp",
               "RelativeDocumentMoniker": "src\\gui\\InteractiveSimulator.cpp",
               "ToolTip": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\InteractiveSimulator.cpp",
               "RelativeToolTip": "src\\gui\\InteractiveSimulator.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOQBAAAAAAAAAAAjwPcBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-10T04:56:38.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EventHandler.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\EventHandler.cpp",
               "RelativeDocumentMoniker": "src\\gui\\EventHandler.cpp",
@@ -183,12 +185,11 @@
               "RelativeToolTip": "src\\gui\\EventHandler.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:56:37.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:37.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "K-Map.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\K-Map.cpp",
               "RelativeDocumentMoniker": "src\\core\\K-Map.cpp",
@@ -196,12 +197,11 @@
               "RelativeToolTip": "src\\core\\K-Map.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:56:33.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:33.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "BasicGates.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\BasicGates.cpp",
               "RelativeDocumentMoniker": "src\\core\\BasicGates.cpp",
@@ -209,12 +209,11 @@
               "RelativeToolTip": "src\\core\\BasicGates.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:55:02.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:55:02.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\main.cpp",
               "RelativeDocumentMoniker": "src\\main.cpp",
@@ -222,12 +221,11 @@
               "RelativeToolTip": "src\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T02:27:26.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T02:27:26.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BasicGates.h",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\BasicGates.h",
               "RelativeDocumentMoniker": "src\\core\\BasicGates.h",
@@ -235,25 +233,36 @@
               "RelativeToolTip": "src\\core\\BasicGates.h",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-10T04:56:03.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:03.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InteractiveSimulator.h",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\InteractiveSimulator.h",
               "RelativeDocumentMoniker": "src\\gui\\InteractiveSimulator.h",
               "ToolTip": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\gui\\InteractiveSimulator.h",
               "RelativeToolTip": "src\\gui\\InteractiveSimulator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-10T04:55:40.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-10T07:59:17.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "GateFactory.h",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\GateFactory.h",
               "RelativeDocumentMoniker": "src\\core\\GateFactory.h",
@@ -261,12 +270,11 @@
               "RelativeToolTip": "src\\core\\GateFactory.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-10T04:56:26.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:26.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GateFactory.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\GateFactory.cpp",
               "RelativeDocumentMoniker": "src\\core\\GateFactory.cpp",
@@ -274,12 +282,11 @@
               "RelativeToolTip": "src\\core\\GateFactory.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:56:16.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:16.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Gate.h",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\Gate.h",
               "RelativeDocumentMoniker": "src\\core\\Gate.h",
@@ -287,12 +294,11 @@
               "RelativeToolTip": "src\\core\\Gate.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-10T04:56:14.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:14.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Gate.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\Gate.cpp",
               "RelativeDocumentMoniker": "src\\core\\Gate.cpp",
@@ -300,12 +306,11 @@
               "RelativeToolTip": "src\\core\\Gate.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:56:12.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:12.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Circuit.cpp",
               "DocumentMoniker": "C:\\Users\\abhin\\digital-logic-simulator\\DigitalLogicSimulator\\src\\core\\Circuit.cpp",
               "RelativeDocumentMoniker": "src\\core\\Circuit.cpp",
@@ -313,8 +318,11 @@
               "RelativeToolTip": "src\\core\\Circuit.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:56:08.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:56:08.908Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         },
