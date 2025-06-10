@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\core\BasicGates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\core\Circuit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\core\Gate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\core\GateFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\core\K-Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\gui\EventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\gui\InteractiveSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\gui\Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\utils\TruthTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\src\utils\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\abhin\digital-logic-simulator\DigitalLogicSimulator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FF03A941-9179-33D1-B5A3-C170E8F5D197}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

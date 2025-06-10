@@ -1,5 +1,4 @@
 #include "TruthTable.h"
-
 // constructor
 
 TruthTable::TruthTable(Gate *gate, const std::vector<bool> &expectedresults)

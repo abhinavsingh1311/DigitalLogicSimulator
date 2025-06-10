@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "BasicGates.h"
+#include "core/BasicGates.h"
 
 class TruthTable
 {
