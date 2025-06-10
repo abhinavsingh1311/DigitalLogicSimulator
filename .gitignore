@@ -36,3 +36,53 @@
 *.build
 *.vs
 
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Build directories
+build/
+out/
+Debug/
+Release/
+x64/
+x86/
+Win32/
+.vs/
+
+# IDE specific files
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+.vscode/
+*.swp
+*~
+
+# Generated files
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio specific
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
